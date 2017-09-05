@@ -11,7 +11,7 @@
 		678B3BBDB3CDF8B42524DA49D2E6BAC0 /* Pods-ApiMinhKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D971F75F3A8121BA919EFF99F6148BF /* Pods-ApiMinhKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D8173E208B080843648DD4FE3E67AC4 /* ApiMinhKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF07FAE1F72BD97B7987DF170894856 /* ApiMinhKit-dummy.m */; };
 		85C22C27CCFD36A91FABB67EDE6EEF86 /* ApiMinhKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF336C318D80DAFC0777F5FCA0847A3 /* ApiMinhKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB1D6ED91F5EDDED004CC791 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D6ED81F5EDDED004CC791 /* Settings.swift */; };
+		CB1D6EDB1F5EDEE6004CC791 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D6EDA1F5EDEE6004CC791 /* Settings.swift */; };
 		CD431CF5DA79984873840900BCCC13BC /* Pods-ApiMinhKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBFCDE0D4646F28DFBECB16556D519 /* Pods-ApiMinhKit_Tests-dummy.m */; };
 		E71E400305E9C59C0CCCA49E6B0A572D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,7 @@
 		A374E795F7D3800DCC715F2AEFD0A008 /* Pods-ApiMinhKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApiMinhKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5CD4BEA80DD27E6F5FAFBB7688FF2ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78BB3EB4B8180C8B55A4483AA662B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB1D6ED81F5EDDED004CC791 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CB1D6EDA1F5EDEE6004CC791 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ApiMinhKit/Classes/Settings.swift; sourceTree = "<group>"; };
 		D6B65723E212C5C9751A66A05B94ECCD /* Pods-ApiMinhKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApiMinhKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		E37C2B90DFA078020F7627D6BE394AAA /* ApiMinhKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiMinhKit-prefix.pch"; sourceTree = "<group>"; };
 		FA0F813CD475460BFF08FEB23ACCBFC3 /* Pods_ApiMinhKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiMinhKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +73,8 @@
 		163B07C84FDDD8CFF999D65EB4C9E335 /* ApiMinhKit */ = {
 			isa = PBXGroup;
 			children = (
-				CB1D6ED81F5EDDED004CC791 /* Settings.swift */,
 				DBB6A6E2D841E039F97B6536D0DD0C72 /* Support Files */,
+				CB1D6EDA1F5EDEE6004CC791 /* Settings.swift */,
 			);
 			name = ApiMinhKit;
 			path = ../..;
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1D6ED91F5EDDED004CC791 /* Settings.swift in Sources */,
+				CB1D6EDB1F5EDEE6004CC791 /* Settings.swift in Sources */,
 				6D8173E208B080843648DD4FE3E67AC4 /* ApiMinhKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ApiMinhKit_Tests' do
+  pod 'ApiMinhKit', :path => '../'
+  
+  
+end

@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3216F7CE234F6620F02067509EBAA692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4D98704F0F9A1AE755B72D140E8BE299 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB4487098AB77CFB03940636FCA858 /* ReplaceMe.swift */; };
 		678B3BBDB3CDF8B42524DA49D2E6BAC0 /* Pods-ApiMinhKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D971F75F3A8121BA919EFF99F6148BF /* Pods-ApiMinhKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D8173E208B080843648DD4FE3E67AC4 /* ApiMinhKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF07FAE1F72BD97B7987DF170894856 /* ApiMinhKit-dummy.m */; };
 		85C22C27CCFD36A91FABB67EDE6EEF86 /* ApiMinhKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF336C318D80DAFC0777F5FCA0847A3 /* ApiMinhKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1D6ED91F5EDDED004CC791 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D6ED81F5EDDED004CC791 /* Settings.swift */; };
 		CD431CF5DA79984873840900BCCC13BC /* Pods-ApiMinhKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBFCDE0D4646F28DFBECB16556D519 /* Pods-ApiMinhKit_Tests-dummy.m */; };
 		E71E400305E9C59C0CCCA49E6B0A572D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,23 +30,23 @@
 		07DBFCDE0D4646F28DFBECB16556D519 /* Pods-ApiMinhKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApiMinhKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		1CF07FAE1F72BD97B7987DF170894856 /* ApiMinhKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiMinhKit-dummy.m"; sourceTree = "<group>"; };
 		1DF336C318D80DAFC0777F5FCA0847A3 /* ApiMinhKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiMinhKit-umbrella.h"; sourceTree = "<group>"; };
-		30BADDD741E26509E05945EDB12D52A9 /* Pods-ApiMinhKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ApiMinhKit_Tests.modulemap"; sourceTree = "<group>"; };
+		30BADDD741E26509E05945EDB12D52A9 /* Pods-ApiMinhKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ApiMinhKit_Tests.modulemap"; sourceTree = "<group>"; };
 		481CE944D97E144D33F739504AFF4621 /* Pods-ApiMinhKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApiMinhKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FEC6B74744E94FBF7AB46C886D937DF /* Pods-ApiMinhKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApiMinhKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D971F75F3A8121BA919EFF99F6148BF /* Pods-ApiMinhKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApiMinhKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7CD46A7855BDDF1B2855C42F712D4B60 /* ApiMinhKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApiMinhKit.xcconfig; sourceTree = "<group>"; };
 		8ADF5B9DA3FA6E228D8818342D141FD2 /* Pods-ApiMinhKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ApiMinhKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		922692A78D86266A7168F7DC7115B51A /* ApiMinhKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ApiMinhKit.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B63DCCDBFC79B1814A7F8817AF8CAC2 /* ApiMinhKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApiMinhKit.framework; path = ApiMinhKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		922692A78D86266A7168F7DC7115B51A /* ApiMinhKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ApiMinhKit.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B63DCCDBFC79B1814A7F8817AF8CAC2 /* ApiMinhKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApiMinhKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A374E795F7D3800DCC715F2AEFD0A008 /* Pods-ApiMinhKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApiMinhKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5CD4BEA80DD27E6F5FAFBB7688FF2ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FB4487098AB77CFB03940636FCA858 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ApiMinhKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C78BB3EB4B8180C8B55A4483AA662B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1D6ED81F5EDDED004CC791 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D6B65723E212C5C9751A66A05B94ECCD /* Pods-ApiMinhKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApiMinhKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		E37C2B90DFA078020F7627D6BE394AAA /* ApiMinhKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiMinhKit-prefix.pch"; sourceTree = "<group>"; };
-		FA0F813CD475460BFF08FEB23ACCBFC3 /* Pods_ApiMinhKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ApiMinhKit_Tests.framework; path = "Pods-ApiMinhKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F813CD475460BFF08FEB23ACCBFC3 /* Pods_ApiMinhKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiMinhKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA114A8ABDF0BC392413CA5D77B3C92D /* Pods-ApiMinhKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApiMinhKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,8 +73,8 @@
 		163B07C84FDDD8CFF999D65EB4C9E335 /* ApiMinhKit */ = {
 			isa = PBXGroup;
 			children = (
-				C3FB4487098AB77CFB03940636FCA858 /* ReplaceMe.swift */,
 				DBB6A6E2D841E039F97B6536D0DD0C72 /* Support Files */,
+				CB1D6ED81F5EDDED004CC791 /* Settings.swift */,
 			);
 			name = ApiMinhKit;
 			path = ../..;
@@ -229,6 +229,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					5655B43D83572EAE701678D7551421A7 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -261,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1D6ED91F5EDDED004CC791 /* Settings.swift in Sources */,
 				6D8173E208B080843648DD4FE3E67AC4 /* ApiMinhKit-dummy.m in Sources */,
-				4D98704F0F9A1AE755B72D140E8BE299 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CD46A7855BDDF1B2855C42F712D4B60 /* ApiMinhKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CD46A7855BDDF1B2855C42F712D4B60 /* ApiMinhKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

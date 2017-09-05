@@ -1,0 +1,6 @@
+framework module ApiMinhKit {
+  umbrella header "ApiMinhKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		2CA8FDDD8D80A849B775B910 /* Pods_ApiMinhKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1BCCC1C9BDA5021FD21184 /* Pods_ApiMinhKit_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		CB1D6ED71F5EDB6E004CC791 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D6ED61F5EDB6E004CC791 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		258F4E613CFE646DE2462BBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		258F4E613CFE646DE2462BBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34DEB9248035094DCCE1FB9D /* Pods-ApiMinhKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiMinhKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiMinhKit_Tests/Pods-ApiMinhKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ApiMinhKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiMinhKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6FFE2DE8630B1C23A8FFFBC6 /* ApiMinhKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ApiMinhKit.podspec; path = ../ApiMinhKit.podspec; sourceTree = "<group>"; };
-		79B312B52883F1E26CCAE34E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6FFE2DE8630B1C23A8FFFBC6 /* ApiMinhKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ApiMinhKit.podspec; path = ../ApiMinhKit.podspec; sourceTree = "<group>"; };
+		79B312B52883F1E26CCAE34E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		97EB200E91FD7FD97503F0C9 /* Pods-ApiMinhKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiMinhKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiMinhKit_Tests/Pods-ApiMinhKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1BCCC1C9BDA5021FD21184 /* Pods_ApiMinhKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiMinhKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1D6ED61F5EDB6E004CC791 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,26 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		CB1D6ED41F5EDB5B004CC791 /* ApiMinhKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB1D6ED51F5EDB62004CC791 /* Classes */,
+			);
+			name = ApiMinhKit;
+			sourceTree = "<group>";
+		};
+		CB1D6ED51F5EDB62004CC791 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB1D6ED61F5EDB6E004CC791 /* Settings.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		DE2101EFC76231C48BDBB5F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				CB1D6ED41F5EDB5B004CC791 /* ApiMinhKit */,
 				97EB200E91FD7FD97503F0C9 /* Pods-ApiMinhKit_Tests.debug.xcconfig */,
 				34DEB9248035094DCCE1FB9D /* Pods-ApiMinhKit_Tests.release.xcconfig */,
 			);
@@ -131,10 +150,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -229,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1D6ED71F5EDB6E004CC791 /* Settings.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

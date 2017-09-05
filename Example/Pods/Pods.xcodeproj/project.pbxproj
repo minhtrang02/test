@@ -73,8 +73,8 @@
 		163B07C84FDDD8CFF999D65EB4C9E335 /* ApiMinhKit */ = {
 			isa = PBXGroup;
 			children = (
-				DBB6A6E2D841E039F97B6536D0DD0C72 /* Support Files */,
 				CB1D6ED81F5EDDED004CC791 /* Settings.swift */,
+				DBB6A6E2D841E039F97B6536D0DD0C72 /* Support Files */,
 			);
 			name = ApiMinhKit;
 			path = ../..;
